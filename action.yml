@@ -7,4 +7,4 @@ inputs:
     default: 'Whoever you are'
 runs:
   using: node16 # What Github should use in order to run this action
-  main: src/index.js # Main entry point for the action where logic is to be executed
+  main: dist/index.js # Main entry point for the action where logic is to be executed
