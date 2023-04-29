@@ -15,3 +15,6 @@ jobs:
         with:
           node-version: '16'
       - uses: ./ # Uses an action in the root directory
+      - uses: ./
+        with:
+          person: 'Adrian Etenyi'
