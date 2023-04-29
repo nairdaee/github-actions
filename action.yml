@@ -1,0 +1,5 @@
+name: Adrian Etenyi Github Actions
+description: This action demonstrates how to use a custom action
+runs:
+  using: node16 # What Github should use in order to run this action
+  main: src/index.js # Main entry point for the action where logic is to be executed
