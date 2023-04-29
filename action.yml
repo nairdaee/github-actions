@@ -8,3 +8,7 @@ inputs:
 runs:
   using: node16 # What Github should use in order to run this action
   main: dist/index.js # Main entry point for the action where logic is to be executed
+# https://actions-cool.github.io/github-action-branding/
+branding:
+  icon: 'briefcase'
+  color: 'orange'
