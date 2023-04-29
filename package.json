@@ -1,0 +1,23 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "Implementation of automated git versioning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nairdaee/github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nairdaee/github-actions/issues"
+  },
+  "homepage": "https://github.com/nairdaee/github-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  }
+}
