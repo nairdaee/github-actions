@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nairdaee/github-actions#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^1.10.0",
+    "esbuild": "^0.17.18"
   }
 }
