@@ -16,7 +16,7 @@ jobs:
           node-version: '16'
       - run: npm ci
       - run: npm run build --if-present
-      - run: rm-rf node_modules
+      - run: rm -rf node_modules
       - uses: ./ # Uses an action in the root directory
       - uses: ./
         with:
